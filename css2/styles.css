@@ -1,0 +1,75 @@
+
+.media{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFFFFF; 
+    width:755px;
+}
+.jumbotron{
+    background-color: #05ece1 ;
+    color: black;
+    font-weight: bold ;
+}
+.form-group-lg{
+    max-width: fit-content;
+    //width: 1000px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+
+
+}
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{       padding-left: 20px;
+        padding-right: 20px;
+	margin-left: 185px;
+	float: left;
+	height: 500px;
+	width: 1000px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+        position: relative;
+        bottom: 0;
+       // display: inline-block;
+        
+       max-width: fit-content;
+        
+}
+
+.force-overflow
+{
+	min-height: 450px;
+        
+}
+
+
+#barstyle::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+
+}
+
+#barstyle::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+        
+}

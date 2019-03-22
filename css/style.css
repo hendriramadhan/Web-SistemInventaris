@@ -1,0 +1,292 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #fff;
+	font-family: calibri;
+}
+a{
+	text-decoration: none;
+}
+form input{
+	padding: 10px;
+	border: none;
+}
+
+
+.testbutton {
+  font-family: arial;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px #7CACDE;
+  box-shadow: 1px 1px 2px #C1E5FC;
+  padding: 10px 24px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px ridge #FFFFFF;
+  background: #63B8EE;
+}
+.testbutton:hover {
+  color: #FFFFFF !important;
+  background: #3787BE;
+}
+
+/*STYLE FORM*/
+form input, select{
+	padding: 10px;
+	width: 100%;
+	border:none;
+	background: #3787BE;
+}
+form textarea{
+	padding: 10px;
+	width: 100%;
+	border:none;
+	background: #FFFFFF;
+}
+form input:focus{
+	background: #3498DB;
+}
+form input[type="submit"]{
+	background: #007fff;
+	color: #000;
+	float:right;
+}
+form input[type="submit"]:hover{
+	background: #3498DB;
+	color: #000;
+}
+form input[type="text"], input[type="password"], input[type="number"],select,  input[type="file"]{
+	color: #fff;
+}
+form input[type="radio"]{
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 15px;
+}
+form label{
+	font: 10pt 'calibri';
+	color: #3498DB;	
+}
+form input[type="checkbox"]{
+	width: 20px;
+}
+form label.setuju{
+	width: 50%;
+}
+
+
+
+
+/*STYLE DROP DOWN MENU*/
+#menu{
+	height: 63px;
+	background: #314252;
+}
+#menu .logo{
+	width: 15%;
+	height: 60px;
+	background: #3397db;
+	float: left;
+}
+#menu .logo h3{
+	margin-top: 12px;
+	font-size: 20pt;
+	padding: 10px;
+	text-align: right;
+	color: #000;
+}
+#menu ul{
+	padding: 10px;
+	width: 100%;
+	list-style: none;
+}
+#menu ul li{
+	position: relative;
+	padding: 10px;
+	font-size: 18pt;
+	margin-left: 6px;
+	float: left;
+	background: #314252;
+}
+#menu ul li a{
+	color: #fff;
+}
+#menu ul li img{
+	padding-right: 5px;
+}
+#menu ul li a:hover{
+	color: #3397db;
+}
+#menu ul li:hover > ul{
+	display: block;
+}
+#menu ul li ul{
+	display: none;
+	position: absolute;
+}
+#menu ul li ul li{
+	min-width: 120px;
+	font-size: 12pt;
+	left: -15px;
+}
+.active{
+	border-bottom: 2px solid #3397db;
+}
+#menu .kanan form{
+	margin-top: -10px;
+	float: right;
+}
+.kanan form input[type="text"]{
+	width: 200px;
+	background: #3787BE;
+}.kanan form input[type="submit"]{
+	margin-top: -35px;
+	width: 10px;
+}
+
+
+
+/*STYLE ISI*/
+#awal{
+	width: 100%;
+	font-size: 12pt;
+}
+#utama{
+	padding: 40px; 
+}#utama table{
+	text-align: center;
+	padding: 10px}
+#utama textarea.dis{
+	padding: 10px; 
+	background:  #FFFFFF;
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 13pt;
+}
+#utama h3{
+	text-align: center;
+}
+
+#utama table tr td, th{
+	font-size: 14pt;
+	font-family: calibri;
+	max-width: 200px;
+	padding: 5px;
+}
+#utama th{
+	background: #3787BE;
+	color: #fff;
+}
+#utama th a{
+	color: #fff;
+}#utama th a:hover{
+	color: #3498db;
+}
+#utama td a{
+	color: #000;
+}
+#utama td a:hover{
+	color: #3787BE;
+}
+#utama td a.batal{
+	text-align: right;
+	background: #3787BE;
+	font-size: 15pt;
+	padding: 5px;
+	width: 200px;
+	color: #fff;
+}
+#utama td a.batal:hover{
+	color: #3498db;
+}
+#hoomee{
+	width: 94%;
+	background: #3498db;
+	padding: 40px;
+}
+
+
+
+
+/*STYLE HALAMAN AWAL HOME*/
+#hoomee h3{
+	text-align: center;
+}
+#hoomee th{
+	background: #3787BE;
+}
+#hoomee th,td a{
+	color: #000;
+}
+#hoomee th,td a:hover{
+	color: #fff;
+}
+#utama .gmbr{
+	width: 60%;
+	float: right;
+}
+.kata{
+	padding: 10px;
+	width: 100%;
+}
+#baru{
+	width: 100%;
+}
+#baru table{
+	width: 100%;
+}
+#baru table th h3{
+	text-align: left;
+	color: #fff;
+}
+
+
+
+
+/*STYLE LOGIN DAN DAFTAR*/
+.log {
+	min-height: 150px;
+	box-shadow: 0px 0px 5px #000;
+	padding:20px;
+	width: 20%;
+}.log form input[type="text"],input[type="password"],input[type="submit"],input[type="number"],input[type="file"]{
+	width: 100%;
+}
+.log2 {
+	min-height: 350px;
+	box-shadow: 0px 0px 5px #000;
+	padding:20px;
+	width: 50%;
+}.log2 form input[type="text"],input[type="password"],input[type="submit"],input[type="number"],input[type="file"]{
+	width: 100%;
+}
+
+
+
+
+
+/*STYLE BAWAH*/
+#bawah{
+	background: #314252;
+	width: 100%;
+	padding: 0px;
+	clear: both;
+	min-height: 100px;
+	border-top: 3px solid #2C3E50;
+}
+#bawah p{
+	margin: 0px 30px 0px 0;
+	float: right;
+	color: #fff;
+}
+#bawah img{
+	margin-top: -25px;
+}
+#bawah{
+	float: right;
+}
+
